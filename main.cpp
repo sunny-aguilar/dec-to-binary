@@ -38,13 +38,14 @@ int main() {
 
 
 string convertDecimal(int num) {
+    int binNumber = num;
     int quotient = 0;
     int remainder = 0;
 
     while (quotient == 0) {
-        quotient = num / 2;
-        remainder = num % 2;
-        if (quotient - floor(quotient)) {
+        quotient = binNumber / 2;
+        remainder = binNumber % 2;
+        if (quotient - floor(quotient) ) {
 
         }
 
