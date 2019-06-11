@@ -45,7 +45,7 @@ string convertDecimal(int num) {
     while (quotient == 0) {
         quotient = binNumber / 2;
         remainder = binNumber % 2;
-        if (quotient - floor(quotient) ) {
+        if (remainder > 0) {
 
         }
 
