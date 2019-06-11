@@ -51,7 +51,6 @@ string convertDecimal(int num) {
         remainder = binNumber % 2;
 
         if (remainder > 0) {
-            cout << "reached\n";
             binString += "1";
         }
         else {
@@ -61,10 +60,10 @@ string convertDecimal(int num) {
         binNumber = quotient;
     }
 
-    if (binString.length() > 4) {
+    if (binString.length() < 4) {
         int addZeros = 4 - binString.length();
         for (int i = 0; i < addZeros; i++) {
-
+            binString = "0" + binString;
         }
     }
 
