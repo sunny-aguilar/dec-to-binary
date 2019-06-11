@@ -52,7 +52,7 @@ string convertDecimal(int num) {
 
         binNumber = quotient;
 
-        quotient = 1;
+        quotient = 0;
     }
 
     return nullptr;
