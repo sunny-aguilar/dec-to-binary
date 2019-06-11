@@ -39,7 +39,9 @@ string convertDecimal(int num) {
     int quotient = 0;
     int remainder = 0;
 
+    while (quotient != 0) {
 
+    }
 
     return nullptr;
 }
