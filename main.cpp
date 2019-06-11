@@ -13,6 +13,7 @@ using std::endl;
 using std::string;
 
 // function prototypes
+string convertDecimal(int num);
 
 int main() {
     int number = 0;
