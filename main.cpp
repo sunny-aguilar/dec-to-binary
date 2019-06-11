@@ -46,6 +46,8 @@ string convertDecimal(int num) {
         if (quotient - floor(quotient)) {
 
         }
+
+        quotient = 0;
     }
 
     return nullptr;
