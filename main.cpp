@@ -52,6 +52,9 @@ string convertDecimal(int num) {
             cout << "reached\n";
             binString += "1";
         }
+        else {
+
+        }
 
         binNumber = quotient;
 
