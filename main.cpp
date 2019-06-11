@@ -20,7 +20,7 @@ string convertDecimal(int num);
 
 int main() {
     int number = 0;
-    string binaryValue = "";
+    string binaryString = "";
 
     cout << "Number: " << number << endl;
 
