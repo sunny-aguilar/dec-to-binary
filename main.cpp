@@ -42,7 +42,7 @@ string convertDecimal(int num) {
     int binNumber = num;
     int quotient = -1;
     int remainder = 0;
-    string binString;
+    string binString = "";
 
     while (quotient != 0) {
         quotient = binNumber / 2;
