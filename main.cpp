@@ -36,7 +36,8 @@ int main() {
 
 
 string convertDecimal(int num) {
-    int remainder
+    int quotient = 0;
+    int remainder = 0;
 
 
     return nullptr;
