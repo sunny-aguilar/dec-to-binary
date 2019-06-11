@@ -59,8 +59,6 @@ string convertDecimal(int num) {
         }
 
         binNumber = quotient;
-
-        quotient = 0;
     }
 
     return binString;
