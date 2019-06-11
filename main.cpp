@@ -17,6 +17,9 @@ string convertDecimal(int num);
 
 int main() {
     int number = 0;
+    string binaryValue = "";
+
+    cout << "Number: " << number << endl;
 
     cout << "This program will convert your decimal number " << endl;
     cout << "into a binary number." << endl;
@@ -26,5 +29,13 @@ int main() {
 
     cout << "You entered the number " << number << "." << endl;
 
+    convertDecimal(number);
+
     return 0;
+}
+
+
+string convertDecimal(int num) {
+
+    return nullptr;
 }
