@@ -7,7 +7,7 @@
 **
 *********************************************************************/
 #include <iostream>
-
+#include <cmath>
 
 using std::cin;
 using std::cout;
@@ -43,7 +43,9 @@ string convertDecimal(int num) {
 
     while (quotient != 0) {
         quotient = num / 2.0;
-        if (quotient - )
+        if (quotient - floor(quotient)) {
+
+        }
     }
 
     return nullptr;
