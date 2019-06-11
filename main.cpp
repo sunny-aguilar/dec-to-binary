@@ -61,7 +61,7 @@ string convertDecimal(int num) {
         binNumber = quotient;
     }
 
-    if (binString > 4) {
+    if (binString.length() > 4) {
 
     }
 
