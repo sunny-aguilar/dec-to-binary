@@ -43,6 +43,7 @@ string convertDecimal(int num) {
 
     while (quotient != 0) {
         quotient = num / 2.0;
+        remainder = num % 2;
         if (quotient - floor(quotient)) {
 
         }
