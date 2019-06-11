@@ -61,5 +61,5 @@ string convertDecimal(int num) {
         quotient = 0;
     }
 
-    return nullptr;
+    return binString;
 }
