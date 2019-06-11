@@ -61,5 +61,10 @@ string convertDecimal(int num) {
         binNumber = quotient;
     }
 
+    if (binString > 4) {
+
+    }
+
+
     return binString;
 }
