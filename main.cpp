@@ -42,6 +42,7 @@ string convertDecimal(int num) {
     int binNumber = num;
     int quotient = -1;
     int remainder = 0;
+    string binString;
 
     while (quotient != 0) {
         quotient = binNumber / 2;
@@ -49,7 +50,7 @@ string convertDecimal(int num) {
 
         if (remainder > 0) {
             cout << "reached\n";
-
+            binNumber
         }
 
         binNumber = quotient;
