@@ -12,6 +12,8 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// function prototypes
+
 int main() {
     int number = 0;
 
