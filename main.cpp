@@ -50,7 +50,7 @@ string convertDecimal(int num) {
 
         if (remainder > 0) {
             cout << "reached\n";
-            binNumber += "1";
+            binString += "1";
         }
 
         binNumber = quotient;
