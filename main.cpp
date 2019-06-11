@@ -39,10 +39,10 @@ int main() {
 
 string convertDecimal(int num) {
     int binNumber = num;
-    int quotient = 0;
+    int quotient = -1;
     int remainder = 0;
 
-    while (quotient == 0) {
+    while (quotient != 0) {
         quotient = binNumber / 2;
         remainder = binNumber % 2;
 
