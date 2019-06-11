@@ -32,7 +32,7 @@ int main() {
 
     cout << "You entered the number " << number << "." << endl;
 
-    convertDecimal(number);
+    binaryString = convertDecimal(number);
 
     return 0;
 }
