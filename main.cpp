@@ -49,6 +49,8 @@ string convertDecimal(int num) {
 
         }
 
+        binNumber = quotient;
+
         quotient = 1;
     }
 
