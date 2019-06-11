@@ -41,14 +41,14 @@ string convertDecimal(int num) {
     int quotient = 0;
     int remainder = 0;
 
-    while (quotient != 0) {
-        quotient = num / 2.0;
+    while (quotient == 0) {
+        quotient = num / 2;
         remainder = num % 2;
         if (quotient - floor(quotient)) {
 
         }
 
-        quotient = 0;
+        quotient = 1;
     }
 
     return nullptr;
