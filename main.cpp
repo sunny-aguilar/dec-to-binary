@@ -10,9 +10,10 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::string;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << endl;
 
     return 0;
 }
