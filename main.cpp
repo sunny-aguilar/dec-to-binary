@@ -53,7 +53,7 @@ string convertDecimal(int num) {
             binString += "1";
         }
         else {
-
+            binString += "0";
         }
 
         binNumber = quotient;
