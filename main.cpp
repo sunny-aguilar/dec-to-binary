@@ -25,8 +25,6 @@ int main() {
 
 
 
-    cout << "Number: " << number << endl;
-
     cout << "This program will convert your decimal number " << endl;
     cout << "into a binary number." << endl;
     cout << "Enter a number between 1 - 100." << endl;
