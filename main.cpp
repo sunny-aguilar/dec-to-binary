@@ -31,7 +31,7 @@ int main() {
 
 
 
-    cout << "Binary value is: " << binaryString << endl;
+
 
     return 0;
 }

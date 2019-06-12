@@ -36,6 +36,8 @@ void Binary::startProgram() {
 
         binaryString = convertDecimal(number);
 
+        cout << "Binary value is: " << binaryString << endl;
+
         goAgain = goAgain();
     }
 
