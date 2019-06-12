@@ -41,7 +41,7 @@ bool Binary::goAgain() {
     cout << "2. No" << endl;
     cout << ">> ";
 
-    int select =
+    int select = validateNumber(1,2);
 
     return true;
 }
