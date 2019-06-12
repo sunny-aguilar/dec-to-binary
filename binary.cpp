@@ -40,6 +40,10 @@ void Binary::startProgram() {
 
 }
 
+string Binary::convertDecimal(int num) {
+
+}
+
 bool Binary::goAgain() {
     cout << "Would you like to enter a new decimal number?" << endl;
     cout << "1. Yes" << endl;
