@@ -23,16 +23,6 @@ int main() {
     Binary bin;
     bin.startProgram();
 
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
 
