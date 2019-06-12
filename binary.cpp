@@ -15,7 +15,6 @@
 Binary::Binary() {};
 
 /*********************************************************************
-** Description:     destructor that de-allocates the 2D array holding
-**                  the three animal arrays
+** Description:     destructor
 *********************************************************************/
 Binary::~Binary() {}
