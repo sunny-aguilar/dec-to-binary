@@ -35,7 +35,7 @@ void Binary::startProgram() {
 bool Binary::goAgain() {
     cout << "Would you like to enter a new decimal number?" << endl;
     cout << "1. Yes" << endl;
-    cout << "2. No" <
+    cout << "2. No" << endl;
     cout << ">> ";
 
 
