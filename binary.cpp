@@ -29,8 +29,11 @@ Binary::~Binary() {}
 
 
 void Binary::startProgram() {
+
     int number = 0;
     string binaryString = "";
+
+    while ()
 
 
 }
@@ -45,8 +48,10 @@ bool Binary::goAgain() {
 
     switch (select) {
         case 1:
+            return true;
             break;
         case 2:
+            return false;
             break;
         default:
             cout << "Unable to select a choice" << endl;
