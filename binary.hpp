@@ -18,6 +18,7 @@ public:
     Binary();
     ~Binary();
     void startProgram();
+    bool goAgain();
 
 };
 

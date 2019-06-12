@@ -30,3 +30,8 @@ void Binary::startProgram() {
 
 
 }
+
+bool Binary::goAgain() {
+
+    return nullptr;
+}
