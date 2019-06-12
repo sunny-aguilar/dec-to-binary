@@ -28,7 +28,7 @@ public:
     ~Binary();
     void startProgram();
     string convertDecimal(int num);
-    bool goAgain();
+    bool convertAgain();
     int validateNumber(int min, int max);
 
 };

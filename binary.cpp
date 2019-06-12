@@ -38,7 +38,7 @@ void Binary::startProgram() {
 
         cout << "Binary value is: " << binaryString << endl;
 
-        goAgain = goAgain();
+        goAgain = convertAgain();
     }
 
 
@@ -75,7 +75,7 @@ string Binary::convertDecimal(int num) {
     return binString;
 }
 
-bool Binary::goAgain() {
+bool Binary::convertAgain() {
     cout << "Would you like to enter a new decimal number?" << endl;
     cout << "1. Yes" << endl;
     cout << "2. No" << endl;
