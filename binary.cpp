@@ -7,6 +7,11 @@
 **
 *********************************************************************/
 #include "binary.hpp"
+#include <string>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
 
 /*********************************************************************
 ** Description:     default constructor
