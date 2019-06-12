@@ -7,6 +7,7 @@
 **
 *********************************************************************/
 #include "binary.hpp"
+#include <iostream>
 #include <string>
 using std::cin;
 using std::cout;
@@ -32,6 +33,11 @@ void Binary::startProgram() {
 }
 
 bool Binary::goAgain() {
+    cout << "Would you like to enter a new decimal number?" << endl;
 
-    return nullptr;
+    cout << ">> ";
+
+
+
+    return true;
 }
