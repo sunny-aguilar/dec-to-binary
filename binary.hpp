@@ -12,6 +12,8 @@
 
 class Binary {
 private:
+
+
 public:
 
 };
