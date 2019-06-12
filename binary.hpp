@@ -11,6 +11,8 @@
 #define DEC_TO_BINARY_BINARY_HPP
 
 class Binary {
+private:
+public:
 
 };
 
