@@ -29,11 +29,13 @@ Binary::~Binary() {}
 
 
 void Binary::startProgram() {
-
+    bool goAgain = true;
     int number = 0;
     string binaryString = "";
 
-    while ()
+    while (goAgain) {
+
+    }
 
 
 }
