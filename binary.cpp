@@ -34,6 +34,8 @@ void Binary::startProgram() {
 
         cout << "You entered the number " << number << "." << endl;
 
+
+
         goAgain = goAgain();
     }
 
