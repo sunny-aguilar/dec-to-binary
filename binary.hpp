@@ -10,6 +10,8 @@
 #ifndef DEC_TO_BINARY_BINARY_HPP
 #define DEC_TO_BINARY_BINARY_HPP
 
+class Binary {
 
+};
 
 #endif //DEC_TO_BINARY_BINARY_HPP
