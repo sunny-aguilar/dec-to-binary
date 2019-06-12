@@ -20,3 +20,6 @@ Binary::Binary() {};
 Binary::~Binary() {}
 
 
+void Binary::startProgram() {
+
+}
