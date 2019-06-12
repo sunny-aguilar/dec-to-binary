@@ -43,7 +43,16 @@ bool Binary::goAgain() {
 
     int select = validateNumber(1,2);
 
-    return true;
+    switch (select) {
+        case 1:
+            break;
+        case 2:
+            break;
+        default:
+            cout << "Unable to select a choice" << endl;
+    }
+
+    return ;
 }
 
 int Binary::validateNumber(int min, int max) {
