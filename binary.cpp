@@ -42,3 +42,7 @@ bool Binary::goAgain() {
 
     return true;
 }
+
+int Binary::validateNumber() {
+
+}
