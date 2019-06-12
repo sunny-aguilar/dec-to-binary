@@ -17,6 +17,7 @@ private:
 public:
     Binary();
     ~Binary();
+    void startProgram();
 
 };
 
