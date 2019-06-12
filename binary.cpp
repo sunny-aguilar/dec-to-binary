@@ -43,6 +43,6 @@ bool Binary::goAgain() {
     return true;
 }
 
-int Binary::validateNumber() {
+int Binary::validateNumber(int min, int max) {
 
 }
