@@ -34,6 +34,13 @@ void Binary::startProgram() {
     string binaryString = "";
 
     while (goAgain) {
+        cout << "This program will convert your decimal number " << endl;
+        cout << "into a binary number." << endl;
+        cout << "Enter a number between 1 - 100." << endl;
+        cout << ">> ";
+        cin >> number;
+
+        cout << "You entered the number " << number << "." << endl;
 
         goAgain = goAgain();
     }
