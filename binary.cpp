@@ -18,9 +18,4 @@ Binary::Binary() {};
 ** Description:     destructor that de-allocates the 2D array holding
 **                  the three animal arrays
 *********************************************************************/
-Binary::~Binary() {
-    for (int index = 0; index < 3; index++) {
-        delete [] animals[index];
-    }
-    delete []  animals;
-}
+Binary::~Binary() {}
