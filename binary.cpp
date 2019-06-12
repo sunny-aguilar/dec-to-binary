@@ -36,7 +36,7 @@ void Binary::startProgram() {
 
         binaryString = convertDecimal(number);
 
-        cout << "Binary value is: " << binaryString << endl;
+        cout << "\nBinary value is: " << binaryString << endl << endl;
 
         goAgain = convertAgain();
     }
