@@ -6,6 +6,7 @@
 **
 **
 *********************************************************************/
+#include "binary.hpp"
 #include <iostream>
 #include <string>
 #include <cmath>

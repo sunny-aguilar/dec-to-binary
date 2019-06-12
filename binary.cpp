@@ -1,5 +1,11 @@
-//
-// Created by Sandro Aguilar on 2019-06-11.
-//
+/*********************************************************************
+** Author:          Sandro Aguilar
+** Date:            June 10, 2019
+** Description:     A program that converts decimal integers into
+**                  binary format.
+**
+**
+*********************************************************************/
 
 #include "binary.hpp"
+
