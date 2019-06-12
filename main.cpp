@@ -29,7 +29,7 @@ int main() {
 
 
 
-    binaryString = convertDecimal(number);
+
 
     cout << "Binary value is: " << binaryString << endl;
 
