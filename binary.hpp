@@ -19,6 +19,7 @@ public:
     ~Binary();
     void startProgram();
     bool goAgain();
+    int validateNumber(1,2);
 
 };
 

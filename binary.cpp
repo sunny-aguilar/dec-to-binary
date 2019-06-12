@@ -38,7 +38,7 @@ bool Binary::goAgain() {
     cout << "2. No" << endl;
     cout << ">> ";
 
-
+    int select =
 
     return true;
 }
