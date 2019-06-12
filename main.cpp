@@ -20,6 +20,9 @@ using std::string;
 string convertDecimal(int num);
 
 int main() {
+    Binary bin;
+
+
     int number = 0;
     string binaryString = "";
 
