@@ -9,6 +9,9 @@
 #include "binary.hpp"
 #include <iostream>
 #include <string>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
 using std::cin;
 using std::cout;
 using std::endl;
