@@ -9,6 +9,15 @@
 
 #ifndef DEC_TO_BINARY_BINARY_HPP
 #define DEC_TO_BINARY_BINARY_HPP
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <sstream>
+#include <iomanip>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
 
 class Binary {
 private:
@@ -18,6 +27,7 @@ public:
     Binary();
     ~Binary();
     void startProgram();
+    string convertDecimal(int num);
     bool goAgain();
     int validateNumber(int min, int max);
 
