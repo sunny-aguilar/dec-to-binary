@@ -21,5 +21,6 @@ Binary::~Binary() {}
 
 
 void Binary::startProgram() {
-
+    int number = 0;
+    string binaryString = "";
 }

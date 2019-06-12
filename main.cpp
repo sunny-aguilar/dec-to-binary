@@ -21,10 +21,9 @@ string convertDecimal(int num);
 
 int main() {
     Binary bin;
+    bin.startProgram();
 
 
-    int number = 0;
-    string binaryString = "";
 
     cout << "Number: " << number << endl;
 
