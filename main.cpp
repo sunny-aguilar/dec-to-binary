@@ -28,32 +28,5 @@ int main() {
 
 
 string convertDecimal(int num) {
-    int binNumber = num;
-    int quotient = -1;
-    int remainder = 0;
-    string binString = "";
 
-    while (quotient != 0) {
-        quotient = binNumber / 2;
-        remainder = binNumber % 2;
-
-        if (remainder > 0) {
-            binString += "1";
-        }
-        else {
-            binString += "0";
-        }
-
-        binNumber = quotient;
-    }
-
-    if (binString.length() < 4) {
-        int addZeros = 4 - binString.length();
-        for (int i = 0; i < addZeros; i++) {
-            binString = "0" + binString;
-        }
-    }
-
-
-    return binString;
 }
