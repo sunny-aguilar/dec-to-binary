@@ -35,6 +35,7 @@ void Binary::startProgram() {
 
     while (goAgain) {
 
+        goAgain = goAgain();
     }
 
 
