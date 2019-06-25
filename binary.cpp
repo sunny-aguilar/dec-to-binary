@@ -32,7 +32,7 @@ void Binary::startProgram() {
         cout << ">> ";
         cin >> number;
 
-        cout << "You entered the number " << number << "." << endl;
+        cout << "\nYou entered the number " << number << "." << endl;
 
         binaryString = convertDecimal(number);
 
