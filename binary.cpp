@@ -86,10 +86,8 @@ bool Binary::convertAgain() {
     switch (select) {
         case 1:
             return true;
-            break;
         case 2:
             return false;
-            break;
         default:
             cout << "Unable to select a choice" << endl;
     }
