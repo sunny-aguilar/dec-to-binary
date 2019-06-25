@@ -140,7 +140,7 @@ int Binary::validateNumber(int min, int max) {
 
             if (validatedChoice < min || validatedChoice > max) {
                 notInRange = true;
-                cout << "enter a number between "
+                cout << "Select option "
                      << min << " or " << max << endl;
             }
         }
