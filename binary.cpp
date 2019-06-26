@@ -23,7 +23,7 @@ Binary::~Binary() {}
 void Binary::startProgram() {
     bool goAgain = true;
     int number = 0;
-    string binaryString = "";
+    string binaryString {};
 
     while (goAgain) {
         cout << "This program will convert your decimal number " << endl;
