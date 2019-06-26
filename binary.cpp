@@ -45,7 +45,7 @@ void Binary::startProgram() {
 }
 
 /*********************************************************************
-** Description:     function that converts numbers into
+** Description:     function that converts numbers into its
 *********************************************************************/
 string Binary::convertDecimal(int num) {
     int binNumber = num;
