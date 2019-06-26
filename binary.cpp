@@ -42,7 +42,6 @@ void Binary::startProgram() {
 
         goAgain = convertAgain();
     }
-
 }
 
 string Binary::convertDecimal(int num) {
