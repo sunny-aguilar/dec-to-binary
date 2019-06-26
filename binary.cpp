@@ -44,6 +44,7 @@ void Binary::startProgram() {
     }
 }
 
+
 string Binary::convertDecimal(int num) {
     int binNumber = num;
     int quotient = -1;
