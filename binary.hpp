@@ -6,7 +6,6 @@
 **
 **
 *********************************************************************/
-
 #ifndef DEC_TO_BINARY_BINARY_HPP
 #define DEC_TO_BINARY_BINARY_HPP
 #include <iostream>

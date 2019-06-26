@@ -19,7 +19,9 @@ Binary::Binary() {}
 *********************************************************************/
 Binary::~Binary() {}
 
-
+/*********************************************************************
+** Description:     starts program
+*********************************************************************/
 void Binary::startProgram() {
     bool goAgain = true;
     int number = 0;
@@ -40,7 +42,6 @@ void Binary::startProgram() {
 
         goAgain = convertAgain();
     }
-
 
 }
 
