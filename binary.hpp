@@ -21,7 +21,6 @@ using std::string;
 class Binary {
 private:
 
-
 public:
     Binary();
     ~Binary();
