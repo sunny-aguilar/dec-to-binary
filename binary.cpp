@@ -12,18 +12,20 @@
 /*********************************************************************
 ** Description:     default constructor
 *********************************************************************/
-Binary::Binary() {};
+Binary::Binary() {}
 
 /*********************************************************************
 ** Description:     destructor
 *********************************************************************/
 Binary::~Binary() {}
 
-
+/*********************************************************************
+** Description:     starts program
+*********************************************************************/
 void Binary::startProgram() {
     bool goAgain = true;
     int number = 0;
-    string binaryString = "";
+    string binaryString {};
 
     while (goAgain) {
         cout << "This program will convert your decimal number " << endl;
@@ -32,7 +34,7 @@ void Binary::startProgram() {
         cout << ">> ";
         cin >> number;
 
-        cout << "You entered the number " << number << "." << endl;
+        cout << "\nYou entered the number " << number << "." << endl;
 
         binaryString = convertDecimal(number);
 
@@ -40,10 +42,12 @@ void Binary::startProgram() {
 
         goAgain = convertAgain();
     }
-
-
 }
 
+/*********************************************************************
+** Description:     function that converts numbers into its binary
+**                  representation
+*********************************************************************/
 string Binary::convertDecimal(int num) {
     int binNumber = num;
     int quotient = -1;
@@ -86,10 +90,8 @@ bool Binary::convertAgain() {
     switch (select) {
         case 1:
             return true;
-            break;
         case 2:
             return false;
-            break;
         default:
             cout << "Unable to select a choice" << endl;
     }
@@ -142,7 +144,7 @@ int Binary::validateNumber(int min, int max) {
 
             if (validatedChoice < min || validatedChoice > max) {
                 notInRange = true;
-                cout << "enter a number between "
+                cout << "Select option "
                      << min << " or " << max << endl;
             }
         }
