@@ -59,10 +59,12 @@ string Binary::convertDecimal(int num) {
         remainder = binNumber % 2;
 
         if (remainder > 0) {
-            binString += "1";
+            binString.insert(0, "1");
+            //binString += "1";
         }
         else {
-            binString += "0";
+            binString.insert(0, "0");
+            //binString += "0";
         }
 
         binNumber = quotient;
