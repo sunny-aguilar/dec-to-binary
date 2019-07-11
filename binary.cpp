@@ -60,11 +60,11 @@ string Binary::convertDecimal(int num) {
 
         if (remainder > 0) {
             binString.insert(0, "1");
-            //binStr
+            //binSt
         }
         else {
             binString.insert(0, "0");
-            //bin
+            //bi
         }
 
         binNumber = quotient;
