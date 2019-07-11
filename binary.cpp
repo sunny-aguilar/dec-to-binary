@@ -60,7 +60,7 @@ string Binary::convertDecimal(int num) {
 
         if (remainder > 0) {
             binString.insert(0, "1");
-            //binString += "1"
+            //binString += "1
         }
         else {
             binString.insert(0, "0");
