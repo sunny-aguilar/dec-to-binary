@@ -75,7 +75,6 @@ string Binary::convertDecimal(int num) {
         }
     }
 
-
     return binString;
 }
 
