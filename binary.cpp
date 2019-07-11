@@ -64,7 +64,7 @@ string Binary::convertDecimal(int num) {
         }
         else {
             binString.insert(0, "0");
-            //binString += "0"
+            //binString += "0
         }
 
         binNumber = quotient;
