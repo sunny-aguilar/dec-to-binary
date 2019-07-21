@@ -76,7 +76,7 @@ string Binary::convertDecimal(int num) {
         }
     }
 
-
+    /
     if (binString.length() < 8 && binString.length() > 4) {
         int addZeros = 8 - binString.length();
         for (int i = 0; i < addZeros; i++) {
