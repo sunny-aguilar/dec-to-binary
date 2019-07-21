@@ -3,7 +3,7 @@
 ** Date:            June 10, 2019
 ** Description:     A program that converts decimal integers into
 **                  binary format. Adds leading zeros for decimal
-**                  values up to 8 bits
+**                  values up to 8 bits.
 **
 *********************************************************************/
 #include "binary.hpp"
