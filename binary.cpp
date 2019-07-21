@@ -2,7 +2,7 @@
 ** Author:          Sandro Aguilar
 ** Date:            June 10, 2019
 ** Description:     A program that converts decimal integers into
-**                  binary format. Includes sp
+**                  binary format. Includes spaces
 **
 **
 *********************************************************************/
@@ -60,11 +60,9 @@ string Binary::convertDecimal(int num) {
 
         if (remainder > 0) {
             binString.insert(0, "1");
-            //binString += "1"
         }
         else {
             binString.insert(0, "0");
-            //binString += "0"
         }
 
         binNumber = quotient;
@@ -77,6 +75,12 @@ string Binary::convertDecimal(int num) {
         }
     }
 
+    if (binString.length() < 8 && binString.length() > 4) {
+        int addZeros = 8 - binString.length();
+        for (int i = 0; i < addZeros; i++) {
+            binString = "0" + binString;
+        }
+    }
 
     return binString;
 }
