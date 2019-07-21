@@ -2,8 +2,8 @@
 ** Author:          Sandro Aguilar
 ** Date:            June 10, 2019
 ** Description:     A program that converts decimal integers into
-**                  binary format. Adds leading zeros for decimal
-**                  values up to 8 bits.
+**                  binary format. Includes spaces
+**
 **
 *********************************************************************/
 #include "binary.hpp"
@@ -67,6 +67,7 @@ string Binary::convertDecimal(int num) {
 
         binNumber = quotient;
     }
+
 
     if (binString.length() < 4) {
         int addZeros = 4 - binString.length();
