@@ -68,7 +68,7 @@ string Binary::convertDecimal(int num) {
         binNumber = quotient;
     }
 
-    // add zeros t
+    // add zeros to
     if (binString.length() < 4) {
         int addZeros = 4 - binString.length();
         for (int i = 0; i < addZeros; i++) {
