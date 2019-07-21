@@ -2,7 +2,7 @@
 ** Author:          Sandro Aguilar
 ** Date:            June 10, 2019
 ** Description:     A program that converts decimal integers into
-**                  binary format. Adds s
+**                  binary format. Adds sp
 **
 **
 *********************************************************************/
